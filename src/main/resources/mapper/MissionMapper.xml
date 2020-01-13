@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cict.pmp.mapper.MissionMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.cict.pmp.entity.Mission">
+    <result column="id" property="id" />
+        <result column="mission_no" property="missionNo" />
+        <result column="mission_level" property="missionLevel" />
+        <result column="mission_title" property="missionTitle" />
+        <result column="mission_content" property="missionContent" />
+        <result column="mission_stage" property="missionStage" />
+        <result column="mission_status" property="missionStatus" />
+        <result column="duty_emp" property="dutyEmp" />
+        <result column="duty_plan_date" property="dutyPlanDate" />
+        <result column="duty_over_date" property="dutyOverDate" />
+        <result column="create_emp" property="createEmp" />
+        <result column="create_time" property="createTime" />
+        <result column="update_emp" property="updateEmp" />
+        <result column="update_time" property="updateTime" />
+        <result column="flag" property="flag" />
+    </resultMap>
+
+</mapper>

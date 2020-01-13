@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cict.pmp.mapper.OrgMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.cict.pmp.entity.Org">
+    <result column="id" property="id" />
+        <result column="org_no" property="orgNo" />
+        <result column="org_name" property="orgName" />
+        <result column="parent_id" property="parentId" />
+        <result column="org_type" property="orgType" />
+        <result column="create_emp" property="createEmp" />
+        <result column="create_time" property="createTime" />
+        <result column="update_emp" property="updateEmp" />
+        <result column="update_time" property="updateTime" />
+        <result column="flag" property="flag" />
+    </resultMap>
+
+</mapper>

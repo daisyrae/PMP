@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cict.pmp.mapper.EmpMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.cict.pmp.entity.Emp">
+    <result column="id" property="id" />
+        <result column="emp_no" property="empNo" />
+        <result column="emp_name" property="empName" />
+        <result column="emp_sex" property="empSex" />
+        <result column="emp_phone" property="empPhone" />
+        <result column="emp_mobile" property="empMobile" />
+        <result column="emp_qq" property="empQq" />
+        <result column="emp_wechat" property="empWechat" />
+        <result column="emp_email" property="empEmail" />
+        <result column="org_id" property="orgId" />
+        <result column="position_id" property="positionId" />
+        <result column="role_id" property="roleId" />
+        <result column="user_name" property="userName" />
+        <result column="user_pwd" property="userPwd" />
+        <result column="create_emp" property="createEmp" />
+        <result column="create_time" property="createTime" />
+        <result column="update_emp" property="updateEmp" />
+        <result column="update_time" property="updateTime" />
+        <result column="flag" property="flag" />
+    </resultMap>
+
+</mapper>
